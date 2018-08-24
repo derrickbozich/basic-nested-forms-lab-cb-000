@@ -3,6 +3,8 @@
   <%= f.fields_for :ingredients do |i| %>
     <%= i.label :quantity_1 %>
     <%= i.text_field :quantity_1 %>
+    <%= i.label :quantity_2 %>
+    <%= i.text_field :quantity_2 %>
   <% end %>
   <%= f.submit %>
 <% end %>
